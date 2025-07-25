@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     <link rel="stylesheet" href="style.css">
     <title>Royal fitness</title>
@@ -33,7 +34,7 @@
     <!--Home section code-->
 
     <section class="home" id="home">
-        <div class="home-content">
+        <div class="home-content" data-aos="zoom-in">
          
             <h3>Build your</h3>
             <h1>Dream physique</h1>
@@ -45,7 +46,7 @@
 
         </div>
 
-        <div class="home-img">
+        <div class="home-img" data-aos="zoom-in">
             <img src="images (1).jpg" alt="Home image">
         </div>
 
@@ -54,9 +55,9 @@
     <!-- services section code -->
 
     <section class="services" id="services">
-        <h2 class="heading">our <span>services</span></h2>
+        <h2 class="heading" data-aos="zoom-in-down">our <span>services</span></h2>
 
-        <div class="services-content">
+        <div class="services-content" data-aos="zoom-in-up">
             <div class="row">
                 <img src="download.jpg" alt="">
 
@@ -99,11 +100,11 @@
     <!-- About section code -->
 
     <section class="about" id="about">
-        <div class="about-img">
+        <div class="about-img" data-aos="zoom-in-down">
             <img src="images (7).jpg" alt="">
         </div>
 
-        <div class="about-content">
+        <div class="about-content" data-aos="zoom-in-up">
             <h2 class="heading">why <span>choose us?</span></h2>
 
             <p>our Diverse membership base creates a friendly and supportive atmosphere, where you can make
@@ -121,9 +122,9 @@
     <!-- pricing section code -->
 
     <section class="plans" id="plans">
-        <h2 class="heading">Our <span>plans</span></h2>
+        <h2 class="heading" data-aos="zoom-in-down">Our <span>plans</span></h2>
 
-        <div class="plans-content">
+        <div class="plans-content" data-aos="zoom-in-up">
 
             <div class="box">
                 <h3>BASIC</h3>
@@ -163,9 +164,95 @@
                     Join now
                 </a>
             </div>
+
         </div>
     </section>
 
+    <!-- Review section code-->
 
+    <section class="review" id="review">
+        <div class="review-box">
+            <h2 class="heading" data-aos="zoom-in-down">client <span>Reviews</span></h2>
+
+            <div class="wrapper" data-aos="zoom-in-up">
+                <div class="review-item">
+                    <img src="download (10).jpg" alt="">
+                    <h2>john</h2>
+                    <div class="rating">
+                        <i class='bx bxs-star' id="star"></i>
+                        <i class='bx bxs-star' id="star"></i>
+                        <i class='bx bxs-star' id="star"></i>
+                        <i class='bx bxs-star' id="star"></i>
+                        <i class='bx bxs-star' id="star"></i>
+                    </div>
+
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Doloremque, consectetur?</p>
+
+                </div>
+
+                <div class="review-item">
+                    <img src="download (9).jpg" alt="">
+                    <h2>steve</h2>
+                    <div class="rating">
+                        <i class='bx bxs-star' id="star"></i>
+                        <i class='bx bxs-star' id="star"></i>
+                        <i class='bx bxs-star' id="star"></i>
+                        <i class='bx bxs-star' id="star"></i>
+                        <i class='bx bxs-star' id="star"></i>
+                    </div>
+
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Doloremque, consectetur?</p>
+                    
+                </div>
+
+                <div class="review-item">
+                    <img src="download (8).jpg" alt="">
+                    <h2>David</h2>
+                    <div class="rating">
+                        <i class='bx bxs-star' id="star"></i>
+                        <i class='bx bxs-star' id="star"></i>
+                        <i class='bx bxs-star' id="star"></i>
+                        <i class='bx bxs-star' id="star"></i>
+                        <i class='bx bxs-star' id="star"></i>
+                    </div>
+
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Doloremque, consectetur?</p>
+                    
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer section code -->
+
+    <footer class="footer">
+        <div class="social">
+            <a href="#"><i class='bx bxl-facebook'></i></a>
+            <a href="#"><i class='bx bxl-instagram'></i></a>
+            <a href="#"><i class='bx bxl-linkedin'></i></a>
+        </div>
+
+        <p class="copyright">
+            &copy; Royal fitness 2024 - All Rights Reserved
+        </p>
+    </footer>
+    
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init({
+        Offset: 300,
+        duration: 1400,
+      });
+    </script> 
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script src="script.js"></script>
 </body>
 </html>
+     
+    
+               
+  
+      
+          
+          
+              
